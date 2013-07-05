@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\GridCtrl_src">
+      <UniqueIdentifier>{82dccc8b-864e-4419-bb66-e4ceb0a6b03f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GridCtrl_src">
+      <UniqueIdentifier>{b7179c84-7ce2-48fc-bd5e-7041085001a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\NewCellTypes">
+      <UniqueIdentifier>{c02f1b62-eb4c-4240-8d49-9eb74edad15f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NewCellTypes">
+      <UniqueIdentifier>{6cd258f3-da29-4180-b988-e4fb6f45db23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SendMail.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SendMailDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\CellRange.h">
+      <Filter>头文件\GridCtrl_src</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\GridCell.h">
+      <Filter>头文件\GridCtrl_src</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\GridCellBase.h">
+      <Filter>头文件\GridCtrl_src</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\GridCtrl.h">
+      <Filter>头文件\GridCtrl_src</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\GridDropTarget.h">
+      <Filter>头文件\GridCtrl_src</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\InPlaceEdit.h">
+      <Filter>头文件\GridCtrl_src</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\MemDC.h">
+      <Filter>头文件\GridCtrl_src</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\TitleTip.h">
+      <Filter>头文件\GridCtrl_src</Filter>
+    </ClInclude>
+    <ClInclude Include="NewCellTypes\GridCellCheck.h">
+      <Filter>头文件\NewCellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="NewCellTypes\GridCellCombo.h">
+      <Filter>头文件\NewCellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="NewCellTypes\GridCellDateTime.h">
+      <Filter>头文件\NewCellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="NewCellTypes\GridCellNumeric.h">
+      <Filter>头文件\NewCellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="NewCellTypes\GridURLCell.h">
+      <Filter>头文件\NewCellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInfoDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZBase64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sendmaillib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SendMail.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SendMailDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\GridCell.cpp">
+      <Filter>源文件\GridCtrl_src</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\GridCellBase.cpp">
+      <Filter>源文件\GridCtrl_src</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\GridCtrl.cpp">
+      <Filter>源文件\GridCtrl_src</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\GridDropTarget.cpp">
+      <Filter>源文件\GridCtrl_src</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\InPlaceEdit.cpp">
+      <Filter>源文件\GridCtrl_src</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\TitleTip.cpp">
+      <Filter>源文件\GridCtrl_src</Filter>
+    </ClCompile>
+    <ClCompile Include="NewCellTypes\GridCellCheck.cpp">
+      <Filter>源文件\NewCellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="NewCellTypes\GridCellCombo.cpp">
+      <Filter>源文件\NewCellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="NewCellTypes\GridCellDateTime.cpp">
+      <Filter>源文件\NewCellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="NewCellTypes\GridCellNumeric.cpp">
+      <Filter>源文件\NewCellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="NewCellTypes\GridURLCell.cpp">
+      <Filter>源文件\NewCellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInfoDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZBase64.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Base64.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sendmaillib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SendMail.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SendMail.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\SendMail.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\email.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
